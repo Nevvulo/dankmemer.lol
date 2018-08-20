@@ -13,9 +13,9 @@ app.use('/', Express.static('./build/static'))
 router.get('/', Express.static('./src/bugs'))
 
 //api specific routes
-app.post('/submit', function(req, res) {
-  res.send('oh hello there')
+router.post('/submit', function(req, res) {
   console.log(req.body)
+  res.send('oh hello there')
 })
 
 app.get('*', function (request, response) {
