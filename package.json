@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/melmsie/dankmemer.lol#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-subdomain": "^1.0.5",
     "file-loader": "^1.1.11",
