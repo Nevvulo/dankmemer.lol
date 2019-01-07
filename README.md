@@ -1,6 +1,6 @@
 # Dank Memer's Web Dashboard
 
-This is the repo for Dank Memer's current Dashboard.
+This is the repo for Dank Memer's current website.
 
 ## Getting Started
 
@@ -9,24 +9,20 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 - Node.js v8.x.x or higher
-- RethinkDB
-- Redis (soon?)
 
 ### Installing
 1. `git clone https://github.com/Dank-Memer/dankmemer.lol.git`
-2. Create config.json
-3. `npm i`
+2. `npm i`
 
 ## Built With
 
-* [Node.js](http://www.dropwizard.io/1.0.2/docs/) - The javascript runtime
-* [React](https://reactjs.org/) - User interface tooling
-* [Express.js](https://expressjs.com/) - Web framework for node.js
+* [Node.js](https://nodejs.org/en/) - The javascript runtime
+* [EJS](https://ejs.co/) - Templating engine
+* [Express.js](https://expressjs.com/) - Web framework
 
 ## Authors
 
-* **Ronin** - *Initial work* - [TheCyberRonin](https://github.com/TheCyberRonin)
-* **Mel** - *Initial design* - [Melmsie](https://github.com/melmsie)
+* **Mel** - [Melmsie](https://github.com/melmsie)
 
 See also the list of [contributors](https://github.com/Dank-Memer/webhook-server/contributors) who participated in this project.
 
