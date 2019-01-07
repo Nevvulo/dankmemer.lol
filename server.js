@@ -1,6 +1,7 @@
 const Express = require('express');
 const app = Express();
 const bodyParser = require('body-parser');
+const config = require('./config.json');
 const port = config.port || 3000;
 
 //set up parsing
